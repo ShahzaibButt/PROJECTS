@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<head>
+
+<title>Perfume.com</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<link rel='stylesheet' type='text/css' href='styles.css' />
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script type='text/javascript' src='menu_jquery.js'></script>
+
+
+<script>
+
+function google_search()
+{
+	var search_value=document.getElementById("search_box").value;
+	window.open("https://www.google.com.pk/?gws_rd=cr&ei=YRh6U-KSHMWByQP99IDoBw#q="+search_value);
+}
+
+</script>  
+
+<script>
+function succes()
+{
+	alert("Request Submited");
+}
+
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+
+
+
+
+</style>
+</head>
+
+
+<body>
+
+<div id="wrapper">
+
+<header>
+<img src="images/logo125.png"/>
+
+<div id="searchbox">
+
+<input type="text" id="search_box"  class="searchbox1" placeholder="Search"/>
+<img src="images/im.png" onClick="google_search()"/>
+
+</div>
+
+
+</header>
+
+  <div id='cssmenu'  style="background:#000;color:#FFF;">
+<ul>
+   <li><a href='index.html'><span>Home</span></a></li>
+   <li class='has-sub'><a href='#'><span>Products</span></a>
+      <ul>
+         <li><a href='men.html'><span>Men's</span></a></li>
+         <li class='last'><a href='women.html'><span>Women's</span></a></li>
+      </ul>
+   </li>
+   <li><a href='store locator.html'><span>Store Locator</span></a></li>
+   <li><a href='about us.html'><span>About Us</span></a></li>
+   <li  class='active'><a href='contact.html'><span>Contact Us</span></a></li>
+</ul>
+</div>
+  
+  
+  <div id="contact"  style="background:#000;color:#FFF;">
+  
+  
+  
+  <h1>Contact Us</h1>
+<div id="left">
+
+<form class="form">
+		
+		<p class="name">
+			<input type="text" name="name" id="name" placeholder="Enter Your First Name" autocomplete="off" required />
+			<label for="name">First Name</label>
+		</p>
+        
+        <p class="name">
+			<input type="text" name="name" id="name" placeholder="Enter Your Last Name" autocomplete="off" required />
+			<label for="name">LastName</label>
+		</p>
+		
+		<p class="email">
+			<input type="text" name="email" id="email" placeholder="mail@Colce.com" />
+			<label for="email">Email</label>
+            <p class="email">
+			<input type="number" name="email" id="email" placeholder="Enter Valid No" autocomplete="off" required />
+			<label for="Phone">Phone Number</label>
+		</p>
+		
+		<p class="web">
+			<input type="text" name="web" id="web" placeholder="Enter Valid Address" />
+			<label for="web">Address</label>
+		</p>	
+        	
+	
+		<p class="text">
+			<textarea name="text" placeholder="Write something to us" /></textarea>
+		</p></form>
+		
+		<p class="submit" onClick="succes()"><a class="sent">
+			Submit</a>
+		</p>
+		
+		<center>
+		<div style="width: 280px; height: 100px; background-color:; margin: -30px ;">
+  			<center><p>Find Us On</p></center>
+			<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+			<a href="https://twitter.com/login" class="fa fa-twitter"></a>
+			<a href="https://accounts.google.com/signin/v2/identifier?hl=EN&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="fa fa-google"></a>
+		</div>
+		</center>
+		
+		
+	
+
+</div>
+
+<div id="right">
+<p>
+
+<b>Mobile No:</b> +92000-0000<br><br>
+<b>Email:</b> admin@perfume.com<br><br>
+<b>Website:</b> perfume.com
+<br><br>
+<b>Timing:</b> Mon-Fri: 3pm to 7pm <br><br>
+<b>Address:</b> Ground Floor S-2, Dolmen City Mall, <br>
+Sea View Road.<br>
+Karachi, Pakistan.<br><br>
+</p>
+
+<img src="images/google map.jpg" height="230" width="360" class="map"/>
+
+</div>
+
+
+</div>
+  
+  
+   	<div id="fot"  style="background:#000;color:#FFF;">
+	<p>COPYRIGHT © 2017 Perfume.com ALL RIGHTS RESERVED.</p>
+	</div>
+  
+  </div>
+
+ 
+
+  
+</div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<head>
+<title>Perfume.com</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel='stylesheet' type='text/css' href='styles.css' />
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script type='text/javascript' src='menu_jquery.js'></script>
+
+
+<script>
+
+function google_search()
+{
+	var search_value=document.getElementById("search_box").value;
+	window.open("https://www.google.com.pk/?gws_rd=cr&ei=YRh6U-KSHMWByQP99IDoBw#q="+search_value);
+}
+
+</script>  
+
+</head>
+
+<body>
+
+<div id="About_wrapper">
+
+<header>
+<img src="images/logo125.png"/>
+
+<div id="searchbox">
+
+<input type="text" id="search_box"  class="searchbox1" placeholder="Search"/>
+<img src="images/im.png" onClick="google_search()"/>
+
+</div>
+
+</header>
+
+  
+  
+  
+    <div id='cssmenu'  style="background:#000;color:#FFF;">
+<ul>
+   <li><a href='index.html'><span>Home</span></a></li>
+   <li class='has-sub'><a href='#'><span>Products</span></a>
+      <ul>
+         <li><a href='men.html'><span>Men's</span></a></li>
+         <li class='last'><a href='women.html'><span>Women's</span></a></li>
+      </ul>
+   </li>
+   <li><a href='store locator.html'><span>Store Locator</span></a></li>
+   <li  class='active'><a href='about us.html'><span>About Us</span></a></li>
+   <li class='last'><a href='contact.html'><span>Contact Us</span></a></li>
+</ul>
+</div>
+<br>
+
+<div id="about_us">  
+  <h1>About Us</h1><br><br>
+<i>
+<h3>Perfume.com</h3>
+  <p>
+  America’s Largest Fragrance Retailer we specializes in the sale of genuine designer fragrances, bath and body, cosmetics, skin care products and related gifts and accessories for men, women and children.<br><br> 
+
+Our Perfumes operates over 370 discount retail stores throughout the United States and Puerto Rico to meet the needs of today’s fashion-conscious, value-oriented consumers. Perfume.com success is not only because of the wide selection of high quality products offered at substantial savings, but also because of the dedication of the people who provide superior customer service everyday. Our fragrance consultants are trained to provide personalized service and expert advice about today’s most popular fragrances, as well as the classic and hard-to-find fragrances. Meeting this need requires three basic principles: service, selection and quality. Because of the dedication and superior customer service offered by our Associates,Our Perfume has been successful at upholding all three, while maintaining fantastic discount pricing.</p>
+  
+  
+<hr><hr>
+  </div>
+  <div id="about_us_pic"><img src="images/Georgio-armani-perfume-for-men.jpg"/>
+  </div>
+  
+  </i>
+  
+<div id="fot"  style="background:#000;color:#FFF;">
+<p>COPYRIGHT © 2017 Perfume.com ALL RIGHTS RESERVED.</p>
+</div>
+</div>
+</body>
+</html>
