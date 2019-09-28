@@ -1,0 +1,84 @@
+#gaugeSindh
+{
+  width: 100px;
+	height: 100px;
+	background: #438094;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  float:left;
+  margin:5px;
+}
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}
+#gaugePunjab
+{
+  width: 100px;
+  height: 100px;
+  background: green;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  float:left;
+  margin:5px;
+}
+#gaugeBalochistan
+{
+  width: 100px;
+  height: 100px;
+  background: #81CA2A;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  float:left;
+  margin:5px;
+}
+#gaugeKpk
+{
+  width: 100px;
+  height: 100px;
+  background: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  float:left;
+  margin:5px;
+}
+#gaugeIsl
+{
+  width: 100px;
+  height: 100px;
+  background: #FDFD27;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  float:left;
+  margin:5px;
+}
+#gaugeFata
+{
+  width: 100px;
+  height: 100px;
+  background: #4AB62A;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  float:left;
+  margin:5px;
+}
+#gaugeGilgit
+{
+  width: 100px;
+  height: 100px;
+  background: #67609E;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  float:left;
+  margin:5px;
+}
